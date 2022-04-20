@@ -3,6 +3,9 @@ body {color: var(--primary-text-color);
     background-color: var(--primary-bcg-color);
 
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 :root {--primary-text-color: #212121;
@@ -19,17 +22,11 @@ body {color: var(--primary-text-color);
 --footer-bcg-color: #2F303A;
 --section-bcg-color: #F5F4FA;
 /* background colors */
-
-/* --primary-font: );
---logo-font: Raleway 700; ????*/
 }
-
-/*шрифты 
-Raleway – 700, roboto, sans-serif
-Roboto – 400,500,700,900, sans-serif*/
 
 
 /* header styles */
+/* logo styles */
 .logo {color: var(--logo-color);
 
 font-family: raleway;
@@ -48,11 +45,11 @@ line-height: 1.17;
 
 text-decoration: none;}
 
+/* site-navigation styles */
 .site-nav .link {color: var(--primary-text-color);
 
-font-family: roboto;
 font-weight: 500;
-font-size: 14px;
+/* font-size: 14px; */
 line-height: 1.17;
 
 text-decoration: none;} 
@@ -65,9 +62,8 @@ text-decoration: none;}
 .contact-list .contact:focus {color: var(--accent-color);}
 
 .contact-list .contact {color: var(--nav-color);
-font-family: roboto;
 font-weight: 500;
-font-size: 14px;
+/* font-size: 14px; */
 line-height: 1.17;
 
 text-decoration: none;}
@@ -75,28 +71,111 @@ text-decoration: none;}
 .nav-list,
 .contact-list {list-style: none;} 
 
-
+/* studio page styles */
 /* hero section*/
+.hero {background-color: var(--hero-bcg-color);}
+   
+.hero-title {color: var(--address-color);
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-transform: uppercase;
+text-align: center}
+
+.hero-button {color: var(--address-color);
+
+background-color: var(--accent-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+text-align: center;
+cursor: pointer;}
+
+/* .hero-button:hover {background-color: var(--address-color);}
+.hero-button:focus {color: var(--address-color);} */
+
+/* features, work, team sections */
+.section
+
+.section-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+
+text-align: center}
+
+.feature-list .text {color: var(--text-color);
+
+/* font-size: 14px; */
+line-height: 1.71;}
+
+.our-team {background-color: var(--section-bcg-color);}
+
+.team {font-weight: 500;
+font-size: 16px;
+line-height: 1.17;}
+
+.team-list .text {color: var(--text-color);
+
+font-size: 16px;
+line-height: 1.17;}
+
+.feature-list,
+.work-list,
+.team-list {list-style: none;}
+
+
+/* portfolio page styles */
+/* buttons*/
+.portfolio-buttons .btn {color: var(--primary-text-color);
+
+background-color: var(--section-bcg-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+
+cursor: pointer;}
+
+.portfolio-buttons .btn:hover {background-color: var(--accent-color);}
+.portfolio-buttons .btn:focus {color: var(--accent-color);}
+
+.portfolio-buttons,
+.portfolio-list {list-style: none;}
+
+.item {font-weight: 700;
+font-size: 18px;
+line-height: 2;}
+
+.item-text {color: var(--text-color);
+font-size: 16px;
+line-height: 1.88;}
 
 
 /* footer */
+/* logo in footer */
 .footer {background-color: var(--footer-bcg-color);}
 
 .footer-logo-studio {color: var(--address-color);}
 
+/* address styles */
 .address {color: var(--address-color);
-font-family: roboto;
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
+/* font-size: 14px; */
 line-height: 1.71;}
 
+/* email, tel styles */
 .address-list .cont-address {color: var(--contacts-color);
-font-family: roboto;
 font-weight: 500;
-font-size: 14px;
+/* font-size: 14px; */
 line-height: 1.17;
 
 text-decoration: none;}
+
+.address-list .cont-address:hover {color: var(--accent-color);}
+.address-list .cont-address:focus {color: var(--accent-color);}
 
 .address-list {list-style: none;}
