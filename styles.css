@@ -89,7 +89,7 @@ text-align: center}
 .hero-button {color: var(--address-color);
 
 background-color: var(--accent-color);
-
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -98,8 +98,11 @@ letter-spacing: 0.06em;
 text-align: center;
 cursor: pointer;}
 
-/* .hero-button:hover {background-color: var(--address-color);}
-.hero-button:focus {color: var(--address-color);} */ 
+.hero-button:hover {background-color: var(--address-color);
+color: var(--accent-color);}
+.hero-button:focus {
+background-color: var(--address-color);
+color: var(--accent-color);}
 
 /* features, work, team sections */
 .section
@@ -138,16 +141,17 @@ line-height: 1.19;}
 /* portfolio page styles */
 /* buttons*/
 .portfolio-buttons .btn {color: var(--primary-text-color);
-
 background-color: var(--section-bcg-color);
 
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 
 cursor: pointer;}
 
-.portfolio-buttons .btn:hover {background-color: var(--accent-color);}
+.portfolio-buttons .btn:hover {color: var(--address-color);
+background-color: var(--accent-color);}
 .portfolio-buttons .btn:focus {color: var(--accent-color);}
 
 .portfolio-buttons,
